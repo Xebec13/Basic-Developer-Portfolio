@@ -25,13 +25,13 @@
 #navbar ul {
     display: flex;
     margin: 10px 0 10px auto;
-    width: 55%;
-    justify-content: space-around;
+    width: 40%;
+    justify-content: space-evenly;
     list-style: none;
 }
 
 #navbar ul li a {
-    margin-left: 3px;
+    margin-right: 3px;
     color: black;
     opacity: 0.7;
     font-size: 1.2rem;
@@ -79,4 +79,15 @@
 .section-heading {
     font-size: 2rem;
     text-align: center;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+}
+
+div.my-information {
+    display: block;
+    font-size: 1.5rem;
+    text-align: left;
 }
