@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic Portfolio</title>
-    <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
    <main>
     <nav id="navbar">
         <ul>
             <li><a href="#intro-section">Home</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contacts</a></li>
+            <li><a href="#skills-section">Skills</a></li>
+            <li><a href="#projects-section">Projects</a></li>
+            <li><a href="#contact-section">Contacts</a></li>
             <li><a href="#about-section">About</a></li>
         </ul>
     </nav>
@@ -48,11 +48,83 @@
         <h1 class="section-heading">My Skills</h1>
         <div class="skills-container">
             <div class="skill-information">
-                <p></p>
+                <p><i class='bx bxl-html5'></i></p>
+                <p class="skill-name">HTML5</p>
+                <p> <progress value="95" max="100" /></p>
             </div>
-
+            <div class="skill-information">
+                <p><i class='bx bxl-css3'></i></p>
+                <p class="skill-name">CSS3</p>
+                <p> <progress value="70" max="100" /></p>
+            </div>
+            <div class="skill-information">
+                <p><i class='bx bxl-javascript'></i></p>
+                <p class="skill-name">JS</p>
+                <p> <progress value="85" max="100" /></p>
+            </div>
+            <div class="skill-information">
+                <p><i class='bx bxl-react'></i></p>
+                <p class="skill-name">React</p>
+                <p> <progress value="95" max="100" /></p>
+            </div>
+            <div class="skill-information">
+                <p><i class='bx bxl-python'></i></p>
+                <p class="skill-name">Python</p>
+                <p> <progress value="95" max="100" /></p>
+            </div>
+            <div class="skill-information">
+                <p><i class='bx bxl-bootstrap'></i></p>
+                <p class="skill-name">Bootstrap</p>
+                <p> <progress value="95" max="100" /></p>
+            </div>
         </div>
     </section>
+    <section id="projects-section">
+        <h1 class="section-heading">My Projects</h1>
+        <div class="projects-container">
+            <div class="image-box">
+                <a href="#">
+                    <img src="https://cdn.pixabay.com/photo/2018/05/18/15/30/web-design-3411373_1280.jpg" alt="">
+                    <div>Company Website</div>
+                </a>
+            </div>
+            <div class="image-box">
+                <a href="#">
+                    <img src="https://cdn.pixabay.com/photo/2015/12/11/09/30/mobile-phone-1087845_640.jpg" alt="">
+                    <div>Seo</div>
+                </a>
+            </div>
+            <div class="image-box">
+                <a href="#">
+                    <img src="https://cdn.pixabay.com/photo/2015/06/24/15/45/code-820275_640.jpg" alt="">
+                    <div>Lorem</div>
+                </a>
+            </div>
+            <div class="image-box">
+                <a href="#">
+                    <img src="https://cdn.pixabay.com/photo/2015/05/08/14/47/seo-758264_640.jpg" alt="">
+                    <div>Test</div>
+                </a>
+            </div>
+            <div class="image-box">
+                <a href="#">
+                    <img src="https://cdn.pixabay.com/photo/2013/10/25/17/26/tree-200795_640.jpg" alt="">
+                    <div>Test</div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="contact-section">
+        <h1 class="section-heading">Lets work Together</h1>
+        <p>Find me on:</p>
+        <p>
+            <a href="#"><i class='bx bxl-github'></i> Github</a>
+            <a href="#"><i class='bx bxl-linkedin'></i> Linkedin</a>
+            <a href="#"><i class='bx bxl-twitter'></i> Twitter</a>
+        </p>
+    </section>
    </main>
+
+
 </body>
 </html>
